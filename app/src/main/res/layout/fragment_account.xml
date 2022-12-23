@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AccountFragment"
+    android:background="@drawable/account">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="MY ACCOUNT"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-240dp"
+            android:layout_marginTop="270dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/setting"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="270dp"
+            android:backgroundTint="@color/black"
+            android:paddingHorizontal="20dp"
+            android:text="Settings" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-320dp"
+            android:layout_marginTop="340dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/help"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="340dp"
+            android:backgroundTint="@color/black"
+            android:paddingHorizontal="20dp"
+            android:text="HELP CENTER" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        app:cardCornerRadius="15dp">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/theb"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="15dp"/>
+
+
+</FrameLayout>

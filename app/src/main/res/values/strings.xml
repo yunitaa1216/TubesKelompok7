@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Drop n Go</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="promo_title">
+        <item>Diskon 10%</item>
+        <item>Diskon akhir bulan</item>
+        <item>Diskon khusus pelajar</item>
+    </string-array>
+
+    <string-array name="promo_desc">
+        <item>Weekend tanpa mencuci baju dapatkan diskon sebesar 10%.
+        </item>
+        <item>Diskon khusus setiap akhir bulan dapatkan diskon sebesar 30%.
+        </item>
+        <item> Untuk kalian para pelajar khusus tanggal 28 oktober dapatkan diskon sebesar 50%.
+        </item>
+    </string-array>
+
+    <array name="promo_poster">
+        <item>@drawable/dis1</item>
+        <item>@drawable/dis2</item>
+        <item>@drawable/dis3</item>
+    </array>
+
+    <string-array name="menu_title">
+        <item>Cuci basah</item>
+        <item>Dry cleaning</item>
+        <item>Premium wash</item>
+        <item>Setrika</item>
+    </string-array>
+
+    <string-array name="menu_desc">
+        <item>Cuci basah merupakan proses pencucian pakaian biasa menggunakan air dan deterjen. Anda bisa mendapatkan
+            jasa cuci basah hanya dengan membayar sebesar 5.000 per KG.
+        </item>
+        <item>Dry cleaning (cuci kering) menggunakan cairan solvent berupa perkloroetilena (PCE) atau tetrakloroetilena
+            untuk membersihkan kotoran pada pakaian. Jasa dry cleaning hanya 8.000 per KG.
+        </item>
+        <item> Premium wash adalah jasa pencucian premium dengan memeriksa pakaian satu persatu
+            untuk menemukan noda, bahan pakaian dan label perawatan sehingga dilakukan pembersihan yang detail.
+            Jasa premium wash hanya 20.000 per KG.
+        </item>
+        <item>Setrika merupakan jasa untuk merapikan pakaian anda setelah dicuci. Sehingga pakaian akan
+            dikemas dengan rapi dan bersih. Anda bisa mendapatkan jasa setrika hanya dengan membayar sebesar
+            3.000 per KG.
+        </item>
+    </string-array>
+
+    <array name="menu_poster">
+        <item>@drawable/ic_cuci_basah</item>
+        <item>@drawable/ic_dry_cleaning</item>
+        <item>@drawable/ic_premium_wash</item>
+        <item>@drawable/ic_setrika</item>
+    </array>
+
+</resources>
